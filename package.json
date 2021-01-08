@@ -1,0 +1,46 @@
+{
+  "name": "@piebits/ssm-js-sdk",
+  "version": "0.0.1",
+  "description": "Javascript SDK for ```simple socket messaging``` (product of piebits cloud)",
+  "main": "dist/bundle.js",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .ts",
+    "build": "webpack --config scripts/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piebits-org/ssm-js-sdk.git"
+  },
+  "keywords": [
+    "SSM",
+    "simple",
+    "socket",
+    "messaging",
+    "piebits",
+    "piebits",
+    "cloud",
+    "ssm-sdk",
+    "ssm-js",
+    "pc-js-sdk"
+  ],
+  "author": "piebits",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/piebits-org/ssm-js-sdk/issues"
+  },
+  "homepage": "https://github.com/piebits-org/ssm-js-sdk#readme",
+  "dependencies": {
+    "socket.io-client": "^3.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.12.0",
+    "@typescript-eslint/parser": "^4.12.0",
+    "eslint": "^7.17.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack": "^5.12.1",
+    "webpack-cli": "^4.3.1"
+  }
+}
