@@ -8,17 +8,17 @@ module.exports = {
         test: /\.ts/,
         use: 'ts-loader',
         exclude: /node_modules/,
-      },
+      }
     ],
   },
   resolve: {
     extensions: [ '.ts', '.js' ],
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, '../dist'),
     library: 'ssm-js-sdk',
     libraryTarget: 'umd',
     globalObject: 'this',
-  },
+  }
 }
